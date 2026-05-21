@@ -1,0 +1,77 @@
+{
+  "rubric_version": "0.9",
+  "levels_order": [
+    "L1",
+    "L2",
+    "L3",
+    "L4"
+  ],
+  "level_names": {
+    "L1": "Developing",
+    "L2": "Healthy",
+    "L3": "Managed",
+    "L4": "Optimised"
+  },
+  "definitions": {
+    "Identity & Access Management": {
+      "L1": "Named accounts exist; shared accounts documented; passwords meet minimum complexity; some form of access control in place.",
+      "L2": "Onboarded to Ping SSO (no alternate login paths); AD for authorisation; Sailpoint IGA for lifecycle; CyberArk PAM for privileged and service accounts; MFA enforced; ACM in MyAccess; quarterly access reviews; session timeout \u226415 min idle; breakglass procedures documented; Zscaler device restriction active.",
+      "L3": "Automated provisioning / deprovisioning via IGA workflows; just-in-time access for privileged sessions; access anomaly detection; service account inventory with rotation tracking; RBAC fully mapped to business roles.",
+      "L4": "All service accounts use short-lived credentials (STS / OIDC tokens); zero standing privileges; continuous access certification; Identity Threat Detection and Response (ITDR)."
+    },
+    "Data Protection & Cryptography": {
+      "L1": "Data classification exists on paper; encryption enabled by default on some services; no known plaintext secrets in production.",
+      "L2": "Data classified per GIC policy; Secret data on dedicated SG servers (GIC internal network only); encryption at rest (KMS-managed keys) and in transit (TLS 1.2+); key rotation automated; PII masked in non-prod; DLP egress controls active; environment segregation enforced; SOC2 / OSPAR for vendors.",
+      "L3": "Automated data discovery and classification; key rotation < 90 days; data lineage tracked; tokenisation for sensitive fields; no prod data in non-prod without approval and masking.",
+      "L4": "Envelope encryption with per-tenant keys; automated DLP with ML classification; crypto agility (algorithm rotation without downtime); hardware-backed key storage."
+    },
+    "Application Security": {
+      "L1": "Input validation exists for critical paths; no known critical / high CVEs unpatched; basic security headers present.",
+      "L2": "CodeQL (SAST) + Snyk (SCA) + GitHub Secret Scanning in CI with critical findings blocking merge; Tenable Agent on all servers; penetration testing completed per TICRP; CIS security baseline defined and compliant; patch management process documented; file upload validation enforced; vulnerability SLA tracked.",
+      "L3": "Vulnerability SLA tracked with metrics and reporting; DAST integrated in staging; container image scanning before deployment; WAF for internet-exposed endpoints; auto-remediation for known patterns.",
+      "L4": "Runtime application self-protection (RASP); Software Bill of Materials (SBOM) generated per release; autonomous patching for non-breaking updates; threat-intelligence-driven prioritisation."
+    },
+    "Secure SDLC & Release": {
+      "L1": "Code in version control; deployment process exists (may be manual); some testing before release.",
+      "L2": "CI/CD pipeline builds and deploys automatically; branch protection with PR review and status checks; change approval recorded in change-management system; IaC for infrastructure; secrets not in code; environments consistent (dev / UAT / prod).",
+      "L3": "DORA metrics tracked (deployment frequency, lead time, change failure rate, MTTR); feature flags for progressive rollout; automated rollback on failure; infrastructure drift detection.",
+      "L4": "Trunk-based development; continuous deployment with automated canary / blue-green; signed commits and artefacts; supply chain security (SLSA Level 2+)."
+    },
+    "Resilience & Recovery": {
+      "L1": "Backups exist; DR plan documented; application runs in single AZ; manual failover possible.",
+      "L2": "Multi-AZ deployment with health probes passing; automated backups with required RPO; backup restore tested annually; DR plan tested and signed off; recovery plan for service loss; HA architecture validated.",
+      "L3": "Availability SLO defined, measured, and alerted; graceful degradation under partial failure; DR tested semi-annually with documented results; RTO / RPO validated against business requirements.",
+      "L4": "Chaos testing on schedule with documented results; self-healing infrastructure; multi-region active-active or warm standby; automated failover < 5 min."
+    },
+    "Observability & Monitoring": {
+      "L1": "Application logs exist; basic uptime monitoring configured; someone gets paged for outages.",
+      "L2": "Structured logs (JSON) shipped to Splunk (hourly minimum); DataDog integrated for service monitoring (URLs, APIs, certs, jobs, DB, disk); security monitoring for privileged activities; Four Golden Signals dashboarded; audit logs sanitised (no credentials / PII); expiry alerts for licences / certs (3-month lead).",
+      "L3": "Distributed tracing with correlation IDs; SLO-based alerting (burn rate); log-based anomaly detection; daily agent reconciliation reporting; synthetic monitoring for critical paths.",
+      "L4": "AIOps for anomaly detection and noise reduction; automated runbook execution on alert; predictive alerting (detect degradation before user impact)."
+    },
+    "Operations & Documentation": {
+      "L1": "Basic runbooks exist; vendor contact information known; team can restart the application.",
+      "L2": "Complete documentation package \u2014 product overview, AWG-approved architecture, network diagram with firewall / proxy rules, asset inventory matching ServiceNow, account list; SOPs per operations team; vendor support details (24x7 contacts, escalation); certificate renewal SOPs; operational handover.",
+      "L3": "Documentation version-controlled and reviewed annually; operational metrics tracked (MTTR, ticket volume, change success rate); post-incident reviews with action items; knowledge base maintained.",
+      "L4": "Self-service operations (ChatOps, automated remediation); documentation generated from code / config; operational excellence reviews quarterly."
+    },
+    "Performance & Scalability": {
+      "L1": "Application handles current production load; no systematic performance degradation; basic resource monitoring exists.",
+      "L2": "Autoscaling configured (horizontal / vertical) with defined thresholds; load tested at least annually; capacity planning performed quarterly.",
+      "L3": "P95 / P99 latency tracked and within SLO at production load; capacity model exists with growth projections; performance regression testing in CI.",
+      "L4": "Predictive autoscaling (scale before demand arrives); performance budgets enforced per release; real-time performance profiling in production."
+    },
+    "Cost & Sustainability": {
+      "L1": "Cloud bill exists; someone reviews it periodically; basic resource tagging in place.",
+      "L2": "Application-level cost visible via tagging and cost allocation; right-sizing recommendations reviewed quarterly; non-prod scheduled down off-hours.",
+      "L3": "Cost-per-unit tracked (per transaction, per user); cost anomaly alerting configured; reserved / savings-plan coverage optimised; FinOps reviews monthly.",
+      "L4": "Automated cost anomaly detection and response; real-time cost attribution; architecture decisions include cost modelling."
+    },
+    "Governance & Architecture": {
+      "L1": "Application exists in some inventory; someone informally owns it; basic documentation exists.",
+      "L2": "In CMDB with current metadata (owner, tech lead, classification, tier); follows documented architecture pattern (12-factor, layered, microservices); stateless processes; config externalised; backing services as attached resources; dependencies inventoried.",
+      "L3": "Architecture reviewed within 12 months; threat model exists; managed services preferred over self-operated; technical debt inventoried; component isolation with minimal blast radius.",
+      "L4": "Architecture continuously validated against principles (fitness functions); automated compliance checks; architecture decision records maintained."
+    }
+  }
+}

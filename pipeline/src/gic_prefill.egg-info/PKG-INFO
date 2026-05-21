@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: gic-prefill
+Version: 0.1.0
+Summary: Pre-fill pipeline for the GIC Application Health Check. Reads source artefacts, extracts structured data per the gic-source-extractors skill, answers rubric questions per the gic-app-health-check skill, populates the v0.9 Checklist Excel.
+Author: App Health Check workstream
+Requires-Python: >=3.10
+Requires-Dist: openpyxl>=3.1.0
+Requires-Dist: pydantic>=2.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: PyPDF2>=3.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4; extra == "dev"
+Requires-Dist: pytest-cov>=4.1; extra == "dev"
+Provides-Extra: anthropic
+Requires-Dist: anthropic>=0.40.0; extra == "anthropic"

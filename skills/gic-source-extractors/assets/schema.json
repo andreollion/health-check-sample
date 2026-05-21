@@ -1,0 +1,273 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GIC Application Health Check — Per-App Data Schema v0.9",
+  "description": "Structured representation of one application's posture, populated by Stage 1 extractors and consumed by Stage 2 question answering.",
+  "type": "object",
+  "required": ["app", "metadata"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "schema_version": {"type": "string", "const": "0.9"},
+        "extracted_at": {"type": "string", "format": "date-time"},
+        "extracted_by": {"type": "string", "description": "Pipeline version + model used for extraction"},
+        "sources_present": {
+          "type": "array",
+          "items": {"enum": ["risk_assessment", "arb", "confluence", "github", "sharepoint"]}
+        }
+      }
+    },
+    "app": {
+      "type": "object",
+      "description": "Application metadata (the 8 GIC fields plus extended fields)",
+      "properties": {
+        "name": {"type": ["string", "null"]},
+        "asset_id": {"type": ["string", "null"]},
+        "asset_status": {"type": ["string", "null"]},
+        "scr_rating": {"type": ["string", "null"]},
+        "primary_apps_oic": {"type": ["string", "null"]},
+        "classification": {"enum": ["Public", "Internal", "Restricted", "Secret", null]},
+        "external_connectivity": {"type": ["string", "null"]},
+        "product_type": {"type": ["string", "null"]},
+        "criticality_tier": {"type": ["integer", "null"]},
+        "rto_hours": {"type": ["number", "null"]},
+        "rpo_minutes": {"type": ["number", "null"]},
+        "owner": {"type": ["string", "null"]},
+        "tech_lead": {"type": ["string", "null"]}
+      }
+    },
+    "identity": {
+      "type": "object",
+      "properties": {
+        "sso_provider": {"type": ["string", "null"]},
+        "sso_app_onboarded": {"type": ["boolean", "null"]},
+        "sso_alternate_login_paths": {"type": "array", "items": {"type": "string"}},
+        "mfa": {
+          "type": "object",
+          "properties": {
+            "users": {"enum": ["required", "partial", "none", null]},
+            "admins": {"enum": ["required", "partial", "none", null]},
+            "aws_console": {"enum": ["required", "partial", "none", null]},
+            "aws_cli": {"enum": ["required", "partial", "none", null]},
+            "aws_api": {"enum": ["required", "partial", "none", null]}
+          }
+        },
+        "lifecycle_system": {"type": ["string", "null"]},
+        "lifecycle_iga_provider": {"type": ["string", "null"]},
+        "quarterly_review_evidence": {"type": "array", "items": {"type": "string"}},
+        "session_timeout_idle_min": {"type": ["integer", "null"]},
+        "session_timeout_absolute_hr": {"type": ["integer", "null"]},
+        "device_restriction_tool": {"type": ["string", "null"]},
+        "breakglass_procedure_documented": {"type": ["boolean", "null"]},
+        "pam_vault_system": {"type": ["string", "null"]},
+        "pam_automated_rotation": {"type": ["boolean", "null"]},
+        "iam_least_privilege_verified_by": {"type": ["string", "null"]},
+        "ad_integration": {"type": ["boolean", "null"]},
+        "paris_registration": {"type": ["boolean", "null"]},
+        "advanced": {
+          "type": "object",
+          "properties": {
+            "iga_automated_provisioning": {"type": ["boolean", "null"]},
+            "jit_privileged_access": {"type": ["boolean", "null"]},
+            "access_anomaly_detection": {"type": ["boolean", "null"]},
+            "service_account_inventory": {"type": ["boolean", "null"]},
+            "rbac_business_role_map": {"type": ["boolean", "null"]},
+            "sts_oidc_short_lived": {"type": ["boolean", "null"]},
+            "zero_standing_privileges": {"type": ["boolean", "null"]},
+            "continuous_certification": {"type": ["boolean", "null"]},
+            "itdr_deployed": {"type": ["boolean", "null"]}
+          }
+        }
+      }
+    },
+    "data_protection": {
+      "type": "object",
+      "properties": {
+        "data_stores": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {"type": "string"},
+              "type": {"type": "string"},
+              "encrypted_at_rest": {"type": ["boolean", "null"]},
+              "kms_managed": {"type": ["boolean", "null"]},
+              "kms_rotation_enabled": {"type": ["boolean", "null"]},
+              "kms_rotation_days": {"type": ["integer", "null"]}
+            }
+          }
+        },
+        "tls_version_min": {"type": ["string", "null"]},
+        "internal_unencrypted_hops": {"type": ["boolean", "null"]},
+        "gic_crypto_standards_adhered": {"type": ["boolean", "null"]},
+        "vendors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {"type": "string"},
+              "soc2_type2_date": {"type": ["string", "null"], "format": "date"},
+              "ospar_date": {"type": ["string", "null"], "format": "date"},
+              "iso27001_date": {"type": ["string", "null"], "format": "date"}
+            }
+          }
+        },
+        "data_classification": {"enum": ["Public", "Internal", "Restricted", "Secret", null]},
+        "secret_data_present": {"type": ["boolean", "null"]},
+        "secret_data_dedicated_singapore_infra": {"type": ["boolean", "null"]},
+        "pii_masked_in_non_prod": {"type": ["boolean", "null"]},
+        "prod_data_in_non_prod_max_days": {"type": ["integer", "null"]},
+        "dev_uat_segregated_from_prod": {"type": ["boolean", "null"]},
+        "egress_filtering": {"type": ["boolean", "null"]},
+        "dlp_policies_active": {"type": ["boolean", "null"]},
+        "s3_bucket_policies_reviewed": {"type": ["boolean", "null"]},
+        "zscaler_ssl_inspection": {"type": ["boolean", "null"]}
+      }
+    },
+    "appsec": {
+      "type": "object",
+      "properties": {
+        "codeql_in_ci": {"type": ["boolean", "null"]},
+        "snyk_in_ci": {"type": ["boolean", "null"]},
+        "github_secret_scanning_active": {"type": ["boolean", "null"]},
+        "critical_high_blocks_promotion": {"type": ["boolean", "null"]},
+        "tenable_agent_on_all_servers": {"type": ["boolean", "null"]},
+        "monthly_var_coverage": {"type": ["boolean", "null"]},
+        "patch_management_documented": {"type": ["boolean", "null"]},
+        "pentest_completed_pre_golive": {"type": ["boolean", "null"]},
+        "pentest_per_ticrp": {"type": ["boolean", "null"]},
+        "wiz_cspm_continuous": {"type": ["boolean", "null"]},
+        "wiz_critical_outstanding": {"type": ["integer", "null"]},
+        "ai_security_checklist_via_itrm": {"enum": ["applicable", "na", "missing", null]},
+        "mobile_security_checklist": {"enum": ["applicable", "na", "missing", null]},
+        "server_side_validation": {"type": ["boolean", "null"]},
+        "file_upload_hardened": {"type": ["boolean", "null"]}
+      }
+    },
+    "sdlc": {
+      "type": "object",
+      "properties": {
+        "main_protected": {"type": ["boolean", "null"]},
+        "required_pr_reviews_count": {"type": ["integer", "null"]},
+        "prod_code_review_count": {"type": ["integer", "null"]},
+        "required_status_checks": {"type": "array", "items": {"type": "string"}},
+        "required_signatures": {"type": ["boolean", "null"]},
+        "fully_automated_via_actions": {"type": ["boolean", "null"]},
+        "manual_prod_steps": {"type": ["boolean", "null"]},
+        "rollback_mechanism": {"enum": ["blue_green", "canary", "other", "none", null]},
+        "rollback_tested_within_90d": {"type": ["boolean", "null"]},
+        "iac_present": {"type": ["boolean", "null"]},
+        "iac_tool": {"enum": ["terraform", "cdk", "cloudformation", "other", "none", null]}
+      }
+    },
+    "resilience": {
+      "type": "object",
+      "properties": {
+        "multi_az_deployed": {"type": ["boolean", "null"]},
+        "az_count": {"type": ["integer", "null"]},
+        "automatic_failover_tested": {"type": ["boolean", "null"]},
+        "data_stores_multi_az_or_xregion": {"type": ["boolean", "null"]},
+        "sli_defined": {"type": ["boolean", "null"]},
+        "slo_defined": {"type": ["boolean", "null"]},
+        "datadog_slo_monitors": {"type": ["boolean", "null"]},
+        "circuit_breakers_present": {"type": ["boolean", "null"]},
+        "automated_backups_configured": {"type": ["boolean", "null"]},
+        "rpo_target_min": {"type": ["integer", "null"]},
+        "restore_tested_within_12m": {"type": ["boolean", "null"]},
+        "rto_achieved_hr": {"type": ["number", "null"]},
+        "dr_plan_documented": {"type": ["boolean", "null"]},
+        "dr_plan_signed_off": {"type": ["boolean", "null"]},
+        "dr_tested_within_12m": {"type": ["boolean", "null"]},
+        "dr_test_sign_off_date": {"type": ["string", "null"], "format": "date"}
+      }
+    },
+    "observability": {
+      "type": "object",
+      "properties": {
+        "datadog_integrated": {"type": ["boolean", "null"]},
+        "datadog_monitors": {"type": "array", "items": {"type": "string"}},
+        "splunk_integrated": {"type": ["boolean", "null"]},
+        "splunk_shipping_min_frequency": {"enum": ["hourly", "more_frequent", "less_frequent", null]},
+        "log_sources_documented": {"type": ["boolean", "null"]},
+        "four_golden_signals_dashboarded": {"type": ["boolean", "null"]},
+        "privileged_activity_monitored": {"type": "array", "items": {"type": "string"}},
+        "soc_alerting_wired": {"type": ["boolean", "null"]},
+        "audit_logs_sanitised": {"type": ["boolean", "null"]},
+        "cert_expiry_alerts_3m_lead": {"type": ["boolean", "null"]},
+        "daily_agent_reconciliation": {"type": ["boolean", "null"]}
+      }
+    },
+    "operations": {
+      "type": "object",
+      "properties": {
+        "servicenow_cmdb_matches_reality": {"type": ["boolean", "null"]},
+        "cmdb_drift_pct": {"type": ["number", "null"]},
+        "account_list_complete": {"type": ["boolean", "null"]},
+        "account_list_covers": {"type": "array", "items": {"type": "string"}},
+        "acm_approvals_present": {"type": ["boolean", "null"]},
+        "system_arch_awg_approved": {"type": ["boolean", "null"]},
+        "awg_approval_date": {"type": ["string", "null"], "format": "date"},
+        "network_diagram_current": {"type": ["boolean", "null"]},
+        "firewall_rules_documented": {"type": ["boolean", "null"]},
+        "proxy_rules_documented": {"type": ["boolean", "null"]},
+        "sops_per_team": {"type": "object"},
+        "vendor_support_24x7_contacts": {"type": ["boolean", "null"]},
+        "cert_398d_max_validity": {"type": ["boolean", "null"]},
+        "uat_sign_off_present": {"type": ["boolean", "null"]},
+        "operational_handover_complete": {"type": ["boolean", "null"]}
+      }
+    },
+    "performance": {
+      "type": "object",
+      "properties": {
+        "autoscale_configured": {"type": ["boolean", "null"]},
+        "scale_metrics": {"type": "array", "items": {"type": "string"}},
+        "load_tested_at_1_5x_peak": {"type": ["boolean", "null"]},
+        "p95_p99_tracked": {"type": ["boolean", "null"]},
+        "capacity_model_with_growth": {"type": ["boolean", "null"]},
+        "apm_regression_detection": {"type": ["boolean", "null"]},
+        "rollback_on_regression": {"type": ["boolean", "null"]}
+      }
+    },
+    "cost": {
+      "type": "object",
+      "properties": {
+        "tagged_to_application": {"type": ["boolean", "null"]},
+        "monthly_trend_reviewed": {"type": ["boolean", "null"]},
+        "right_sizing_actioned": {"type": ["boolean", "null"]},
+        "sustainability_posture_documented": {"type": ["boolean", "null"]},
+        "cost_per_unit_tracked": {"type": ["boolean", "null"]},
+        "cost_anomaly_alerting": {"type": ["boolean", "null"]}
+      }
+    },
+    "governance": {
+      "type": "object",
+      "properties": {
+        "stateless_processes": {"type": ["boolean", "null"]},
+        "config_externalised": {"type": ["boolean", "null"]},
+        "config_source": {"type": "array", "items": {"type": "string"}},
+        "no_hardcoded_values": {"type": ["boolean", "null"]},
+        "architecture_pattern": {"enum": ["12_factor", "layered", "microservices", "other", null]},
+        "dependencies_inventoried": {"type": ["boolean", "null"]},
+        "cmdb_record_present": {"type": ["boolean", "null"]},
+        "cmdb_metadata_fresh_under_6m": {"type": ["boolean", "null"]},
+        "third_party_register_current": {"type": ["boolean", "null"]}
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "description": "Every property set above MUST have at least one entry here providing provenance",
+      "items": {
+        "type": "object",
+        "required": ["property_path", "source", "ref"],
+        "properties": {
+          "property_path": {"type": "string", "description": "JSON path like 'identity.mfa.users'"},
+          "source": {"enum": ["risk_assessment", "arb", "confluence", "github", "sharepoint"]},
+          "ref": {"type": "string", "description": "Page number, file path, URL, ticket ID, or other locator"},
+          "excerpt": {"type": "string", "description": "Direct quote or summary of the supporting evidence"},
+          "extracted_at": {"type": "string", "format": "date-time"}
+        }
+      }
+    }
+  }
+}

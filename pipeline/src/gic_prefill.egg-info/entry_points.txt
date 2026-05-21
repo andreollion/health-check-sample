@@ -1,0 +1,2 @@
+[console_scripts]
+gic-prefill = prefill.orchestrator:main

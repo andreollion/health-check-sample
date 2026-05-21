@@ -1,0 +1,3128 @@
+{
+  "rubric_version": "0.9",
+  "description": "Default mapping of element IDs to recommended source types for pre-fill workflows. Override per element where needed.",
+  "source_types": [
+    "risk_assessment",
+    "arb",
+    "confluence",
+    "github",
+    "sharepoint"
+  ],
+  "routing": {
+    "Q01-E01": {
+      "element_id": "Q01-E01",
+      "qid": "Q01",
+      "dimension": "Identity & Access Management",
+      "level": "L1",
+      "primary_sources": [
+        "risk_assessment",
+        "confluence"
+      ]
+    },
+    "Q01-E02": {
+      "element_id": "Q01-E02",
+      "qid": "Q01",
+      "dimension": "Identity & Access Management",
+      "level": "L1",
+      "primary_sources": [
+        "risk_assessment",
+        "confluence"
+      ]
+    },
+    "Q01-E03": {
+      "element_id": "Q01-E03",
+      "qid": "Q01",
+      "dimension": "Identity & Access Management",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q01-E04": {
+      "element_id": "Q01-E04",
+      "qid": "Q01",
+      "dimension": "Identity & Access Management",
+      "level": "L2",
+      "primary_sources": [
+        "risk_assessment",
+        "confluence"
+      ]
+    },
+    "Q01-E05": {
+      "element_id": "Q01-E05",
+      "qid": "Q01",
+      "dimension": "Identity & Access Management",
+      "level": "L2",
+      "primary_sources": [
+        "risk_assessment",
+        "confluence"
+      ]
+    },
+    "Q01-E06": {
+      "element_id": "Q01-E06",
+      "qid": "Q01",
+      "dimension": "Identity & Access Management",
+      "level": "L2",
+      "primary_sources": [
+        "risk_assessment",
+        "confluence"
+      ]
+    },
+    "Q01-E07": {
+      "element_id": "Q01-E07",
+      "qid": "Q01",
+      "dimension": "Identity & Access Management",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q01-E08": {
+      "element_id": "Q01-E08",
+      "qid": "Q01",
+      "dimension": "Identity & Access Management",
+      "level": "L2",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q01-E09": {
+      "element_id": "Q01-E09",
+      "qid": "Q01",
+      "dimension": "Identity & Access Management",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q01-E10": {
+      "element_id": "Q01-E10",
+      "qid": "Q01",
+      "dimension": "Identity & Access Management",
+      "level": "L3",
+      "primary_sources": [
+        "risk_assessment",
+        "confluence"
+      ]
+    },
+    "Q01-E11": {
+      "element_id": "Q01-E11",
+      "qid": "Q01",
+      "dimension": "Identity & Access Management",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q01-E12": {
+      "element_id": "Q01-E12",
+      "qid": "Q01",
+      "dimension": "Identity & Access Management",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q01-E13": {
+      "element_id": "Q01-E13",
+      "qid": "Q01",
+      "dimension": "Identity & Access Management",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q01-E14": {
+      "element_id": "Q01-E14",
+      "qid": "Q01",
+      "dimension": "Identity & Access Management",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q01-E15": {
+      "element_id": "Q01-E15",
+      "qid": "Q01",
+      "dimension": "Identity & Access Management",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q01-E16": {
+      "element_id": "Q01-E16",
+      "qid": "Q01",
+      "dimension": "Identity & Access Management",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q01-E17": {
+      "element_id": "Q01-E17",
+      "qid": "Q01",
+      "dimension": "Identity & Access Management",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q02-E01": {
+      "element_id": "Q02-E01",
+      "qid": "Q02",
+      "dimension": "Identity & Access Management",
+      "level": "L1",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q02-E02": {
+      "element_id": "Q02-E02",
+      "qid": "Q02",
+      "dimension": "Identity & Access Management",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q02-E03": {
+      "element_id": "Q02-E03",
+      "qid": "Q02",
+      "dimension": "Identity & Access Management",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q02-E04": {
+      "element_id": "Q02-E04",
+      "qid": "Q02",
+      "dimension": "Identity & Access Management",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q02-E05": {
+      "element_id": "Q02-E05",
+      "qid": "Q02",
+      "dimension": "Identity & Access Management",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q02-E06": {
+      "element_id": "Q02-E06",
+      "qid": "Q02",
+      "dimension": "Identity & Access Management",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q02-E07": {
+      "element_id": "Q02-E07",
+      "qid": "Q02",
+      "dimension": "Identity & Access Management",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q02-E08": {
+      "element_id": "Q02-E08",
+      "qid": "Q02",
+      "dimension": "Identity & Access Management",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q02-E09": {
+      "element_id": "Q02-E09",
+      "qid": "Q02",
+      "dimension": "Identity & Access Management",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q02-E10": {
+      "element_id": "Q02-E10",
+      "qid": "Q02",
+      "dimension": "Identity & Access Management",
+      "level": "L4",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q02-E11": {
+      "element_id": "Q02-E11",
+      "qid": "Q02",
+      "dimension": "Identity & Access Management",
+      "level": "L4",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q02-E12": {
+      "element_id": "Q02-E12",
+      "qid": "Q02",
+      "dimension": "Identity & Access Management",
+      "level": "L4",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q03-E01": {
+      "element_id": "Q03-E01",
+      "qid": "Q03",
+      "dimension": "Identity & Access Management",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q03-E02": {
+      "element_id": "Q03-E02",
+      "qid": "Q03",
+      "dimension": "Identity & Access Management",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q03-E03": {
+      "element_id": "Q03-E03",
+      "qid": "Q03",
+      "dimension": "Identity & Access Management",
+      "level": "L2",
+      "primary_sources": [
+        "arb",
+        "confluence"
+      ]
+    },
+    "Q03-E04": {
+      "element_id": "Q03-E04",
+      "qid": "Q03",
+      "dimension": "Identity & Access Management",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q03-E05": {
+      "element_id": "Q03-E05",
+      "qid": "Q03",
+      "dimension": "Identity & Access Management",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q03-E06": {
+      "element_id": "Q03-E06",
+      "qid": "Q03",
+      "dimension": "Identity & Access Management",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q03-E07": {
+      "element_id": "Q03-E07",
+      "qid": "Q03",
+      "dimension": "Identity & Access Management",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q03-E08": {
+      "element_id": "Q03-E08",
+      "qid": "Q03",
+      "dimension": "Identity & Access Management",
+      "level": "L4",
+      "primary_sources": [
+        "confluence",
+        "arb"
+      ]
+    },
+    "Q03-E09": {
+      "element_id": "Q03-E09",
+      "qid": "Q03",
+      "dimension": "Identity & Access Management",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q03-E10": {
+      "element_id": "Q03-E10",
+      "qid": "Q03",
+      "dimension": "Identity & Access Management",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q04-E01": {
+      "element_id": "Q04-E01",
+      "qid": "Q04",
+      "dimension": "Identity & Access Management",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q04-E02": {
+      "element_id": "Q04-E02",
+      "qid": "Q04",
+      "dimension": "Identity & Access Management",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q04-E03": {
+      "element_id": "Q04-E03",
+      "qid": "Q04",
+      "dimension": "Identity & Access Management",
+      "level": "L1",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q04-E04": {
+      "element_id": "Q04-E04",
+      "qid": "Q04",
+      "dimension": "Identity & Access Management",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q04-E05": {
+      "element_id": "Q04-E05",
+      "qid": "Q04",
+      "dimension": "Identity & Access Management",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q04-E06": {
+      "element_id": "Q04-E06",
+      "qid": "Q04",
+      "dimension": "Identity & Access Management",
+      "level": "L3",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q04-E07": {
+      "element_id": "Q04-E07",
+      "qid": "Q04",
+      "dimension": "Identity & Access Management",
+      "level": "L3",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q04-E08": {
+      "element_id": "Q04-E08",
+      "qid": "Q04",
+      "dimension": "Identity & Access Management",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q04-E09": {
+      "element_id": "Q04-E09",
+      "qid": "Q04",
+      "dimension": "Identity & Access Management",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q04-E10": {
+      "element_id": "Q04-E10",
+      "qid": "Q04",
+      "dimension": "Identity & Access Management",
+      "level": "L4",
+      "primary_sources": [
+        "arb",
+        "risk_assessment"
+      ]
+    },
+    "Q05-E01": {
+      "element_id": "Q05-E01",
+      "qid": "Q05",
+      "dimension": "Identity & Access Management",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q05-E02": {
+      "element_id": "Q05-E02",
+      "qid": "Q05",
+      "dimension": "Identity & Access Management",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q05-E03": {
+      "element_id": "Q05-E03",
+      "qid": "Q05",
+      "dimension": "Identity & Access Management",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q05-E04": {
+      "element_id": "Q05-E04",
+      "qid": "Q05",
+      "dimension": "Identity & Access Management",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q05-E05": {
+      "element_id": "Q05-E05",
+      "qid": "Q05",
+      "dimension": "Identity & Access Management",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "arb"
+      ]
+    },
+    "Q05-E06": {
+      "element_id": "Q05-E06",
+      "qid": "Q05",
+      "dimension": "Identity & Access Management",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q05-E07": {
+      "element_id": "Q05-E07",
+      "qid": "Q05",
+      "dimension": "Identity & Access Management",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q05-E08": {
+      "element_id": "Q05-E08",
+      "qid": "Q05",
+      "dimension": "Identity & Access Management",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q06-E01": {
+      "element_id": "Q06-E01",
+      "qid": "Q06",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L1",
+      "primary_sources": [
+        "arb",
+        "risk_assessment"
+      ]
+    },
+    "Q06-E02": {
+      "element_id": "Q06-E02",
+      "qid": "Q06",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L1",
+      "primary_sources": [
+        "arb",
+        "risk_assessment"
+      ]
+    },
+    "Q06-E03": {
+      "element_id": "Q06-E03",
+      "qid": "Q06",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L1",
+      "primary_sources": [
+        "risk_assessment"
+      ]
+    },
+    "Q06-E04": {
+      "element_id": "Q06-E04",
+      "qid": "Q06",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L2",
+      "primary_sources": [
+        "arb",
+        "risk_assessment"
+      ]
+    },
+    "Q06-E05": {
+      "element_id": "Q06-E05",
+      "qid": "Q06",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L2",
+      "primary_sources": [
+        "arb",
+        "risk_assessment"
+      ]
+    },
+    "Q06-E06": {
+      "element_id": "Q06-E06",
+      "qid": "Q06",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L2",
+      "primary_sources": [
+        "arb",
+        "risk_assessment"
+      ]
+    },
+    "Q06-E07": {
+      "element_id": "Q06-E07",
+      "qid": "Q06",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L2",
+      "primary_sources": [
+        "risk_assessment"
+      ]
+    },
+    "Q06-E08": {
+      "element_id": "Q06-E08",
+      "qid": "Q06",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L3",
+      "primary_sources": [
+        "risk_assessment",
+        "confluence"
+      ]
+    },
+    "Q06-E09": {
+      "element_id": "Q06-E09",
+      "qid": "Q06",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L3",
+      "primary_sources": [
+        "arb",
+        "risk_assessment"
+      ]
+    },
+    "Q06-E10": {
+      "element_id": "Q06-E10",
+      "qid": "Q06",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q06-E11": {
+      "element_id": "Q06-E11",
+      "qid": "Q06",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q06-E12": {
+      "element_id": "Q06-E12",
+      "qid": "Q06",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q06-E13": {
+      "element_id": "Q06-E13",
+      "qid": "Q06",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L4",
+      "primary_sources": [
+        "arb",
+        "risk_assessment"
+      ]
+    },
+    "Q06-E14": {
+      "element_id": "Q06-E14",
+      "qid": "Q06",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L4",
+      "primary_sources": [
+        "risk_assessment"
+      ]
+    },
+    "Q06-E15": {
+      "element_id": "Q06-E15",
+      "qid": "Q06",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L4",
+      "primary_sources": [
+        "arb",
+        "risk_assessment"
+      ]
+    },
+    "Q06-E16": {
+      "element_id": "Q06-E16",
+      "qid": "Q06",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q07-E01": {
+      "element_id": "Q07-E01",
+      "qid": "Q07",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L1",
+      "primary_sources": [
+        "risk_assessment"
+      ]
+    },
+    "Q07-E02": {
+      "element_id": "Q07-E02",
+      "qid": "Q07",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L1",
+      "primary_sources": [
+        "risk_assessment"
+      ]
+    },
+    "Q07-E03": {
+      "element_id": "Q07-E03",
+      "qid": "Q07",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q07-E04": {
+      "element_id": "Q07-E04",
+      "qid": "Q07",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L2",
+      "primary_sources": [
+        "risk_assessment"
+      ]
+    },
+    "Q07-E05": {
+      "element_id": "Q07-E05",
+      "qid": "Q07",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L3",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q07-E06": {
+      "element_id": "Q07-E06",
+      "qid": "Q07",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L3",
+      "primary_sources": [
+        "risk_assessment",
+        "confluence"
+      ]
+    },
+    "Q07-E07": {
+      "element_id": "Q07-E07",
+      "qid": "Q07",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q07-E08": {
+      "element_id": "Q07-E08",
+      "qid": "Q07",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L4",
+      "primary_sources": [
+        "arb",
+        "risk_assessment"
+      ]
+    },
+    "Q07-E09": {
+      "element_id": "Q07-E09",
+      "qid": "Q07",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L4",
+      "primary_sources": [
+        "risk_assessment",
+        "confluence"
+      ]
+    },
+    "Q07-E10": {
+      "element_id": "Q07-E10",
+      "qid": "Q07",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L4",
+      "primary_sources": [
+        "risk_assessment"
+      ]
+    },
+    "Q08-E01": {
+      "element_id": "Q08-E01",
+      "qid": "Q08",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L1",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q08-E02": {
+      "element_id": "Q08-E02",
+      "qid": "Q08",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q08-E03": {
+      "element_id": "Q08-E03",
+      "qid": "Q08",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q08-E04": {
+      "element_id": "Q08-E04",
+      "qid": "Q08",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q08-E05": {
+      "element_id": "Q08-E05",
+      "qid": "Q08",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q08-E06": {
+      "element_id": "Q08-E06",
+      "qid": "Q08",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q08-E07": {
+      "element_id": "Q08-E07",
+      "qid": "Q08",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q08-E08": {
+      "element_id": "Q08-E08",
+      "qid": "Q08",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q08-E09": {
+      "element_id": "Q08-E09",
+      "qid": "Q08",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q08-E10": {
+      "element_id": "Q08-E10",
+      "qid": "Q08",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L4",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q08-E11": {
+      "element_id": "Q08-E11",
+      "qid": "Q08",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q08-E12": {
+      "element_id": "Q08-E12",
+      "qid": "Q08",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L4",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q09-E01": {
+      "element_id": "Q09-E01",
+      "qid": "Q09",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q09-E02": {
+      "element_id": "Q09-E02",
+      "qid": "Q09",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q09-E03": {
+      "element_id": "Q09-E03",
+      "qid": "Q09",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L1",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q09-E04": {
+      "element_id": "Q09-E04",
+      "qid": "Q09",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q09-E05": {
+      "element_id": "Q09-E05",
+      "qid": "Q09",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L2",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q09-E06": {
+      "element_id": "Q09-E06",
+      "qid": "Q09",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "arb"
+      ]
+    },
+    "Q09-E07": {
+      "element_id": "Q09-E07",
+      "qid": "Q09",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q09-E08": {
+      "element_id": "Q09-E08",
+      "qid": "Q09",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q09-E09": {
+      "element_id": "Q09-E09",
+      "qid": "Q09",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q09-E10": {
+      "element_id": "Q09-E10",
+      "qid": "Q09",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q09-E11": {
+      "element_id": "Q09-E11",
+      "qid": "Q09",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q09-E12": {
+      "element_id": "Q09-E12",
+      "qid": "Q09",
+      "dimension": "Data Protection & Cryptography",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q10-E01": {
+      "element_id": "Q10-E01",
+      "qid": "Q10",
+      "dimension": "Application Security",
+      "level": "L1",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q10-E02": {
+      "element_id": "Q10-E02",
+      "qid": "Q10",
+      "dimension": "Application Security",
+      "level": "L1",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q10-E03": {
+      "element_id": "Q10-E03",
+      "qid": "Q10",
+      "dimension": "Application Security",
+      "level": "L2",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q10-E04": {
+      "element_id": "Q10-E04",
+      "qid": "Q10",
+      "dimension": "Application Security",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q10-E05": {
+      "element_id": "Q10-E05",
+      "qid": "Q10",
+      "dimension": "Application Security",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q10-E06": {
+      "element_id": "Q10-E06",
+      "qid": "Q10",
+      "dimension": "Application Security",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q10-E07": {
+      "element_id": "Q10-E07",
+      "qid": "Q10",
+      "dimension": "Application Security",
+      "level": "L3",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q10-E08": {
+      "element_id": "Q10-E08",
+      "qid": "Q10",
+      "dimension": "Application Security",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q10-E09": {
+      "element_id": "Q10-E09",
+      "qid": "Q10",
+      "dimension": "Application Security",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q10-E10": {
+      "element_id": "Q10-E10",
+      "qid": "Q10",
+      "dimension": "Application Security",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q10-E11": {
+      "element_id": "Q10-E11",
+      "qid": "Q10",
+      "dimension": "Application Security",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q10-E12": {
+      "element_id": "Q10-E12",
+      "qid": "Q10",
+      "dimension": "Application Security",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q10-E13": {
+      "element_id": "Q10-E13",
+      "qid": "Q10",
+      "dimension": "Application Security",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q11-E01": {
+      "element_id": "Q11-E01",
+      "qid": "Q11",
+      "dimension": "Application Security",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q11-E02": {
+      "element_id": "Q11-E02",
+      "qid": "Q11",
+      "dimension": "Application Security",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q11-E03": {
+      "element_id": "Q11-E03",
+      "qid": "Q11",
+      "dimension": "Application Security",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q11-E04": {
+      "element_id": "Q11-E04",
+      "qid": "Q11",
+      "dimension": "Application Security",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q11-E05": {
+      "element_id": "Q11-E05",
+      "qid": "Q11",
+      "dimension": "Application Security",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q11-E06": {
+      "element_id": "Q11-E06",
+      "qid": "Q11",
+      "dimension": "Application Security",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q11-E07": {
+      "element_id": "Q11-E07",
+      "qid": "Q11",
+      "dimension": "Application Security",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q11-E08": {
+      "element_id": "Q11-E08",
+      "qid": "Q11",
+      "dimension": "Application Security",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q11-E09": {
+      "element_id": "Q11-E09",
+      "qid": "Q11",
+      "dimension": "Application Security",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q11-E10": {
+      "element_id": "Q11-E10",
+      "qid": "Q11",
+      "dimension": "Application Security",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q11-E11": {
+      "element_id": "Q11-E11",
+      "qid": "Q11",
+      "dimension": "Application Security",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q12-E01": {
+      "element_id": "Q12-E01",
+      "qid": "Q12",
+      "dimension": "Application Security",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q12-E02": {
+      "element_id": "Q12-E02",
+      "qid": "Q12",
+      "dimension": "Application Security",
+      "level": "L1",
+      "primary_sources": [
+        "arb",
+        "confluence"
+      ]
+    },
+    "Q12-E03": {
+      "element_id": "Q12-E03",
+      "qid": "Q12",
+      "dimension": "Application Security",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q12-E04": {
+      "element_id": "Q12-E04",
+      "qid": "Q12",
+      "dimension": "Application Security",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q12-E05": {
+      "element_id": "Q12-E05",
+      "qid": "Q12",
+      "dimension": "Application Security",
+      "level": "L2",
+      "primary_sources": [
+        "arb",
+        "confluence"
+      ]
+    },
+    "Q12-E06": {
+      "element_id": "Q12-E06",
+      "qid": "Q12",
+      "dimension": "Application Security",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q12-E07": {
+      "element_id": "Q12-E07",
+      "qid": "Q12",
+      "dimension": "Application Security",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q12-E08": {
+      "element_id": "Q12-E08",
+      "qid": "Q12",
+      "dimension": "Application Security",
+      "level": "L3",
+      "primary_sources": [
+        "arb",
+        "confluence"
+      ]
+    },
+    "Q12-E09": {
+      "element_id": "Q12-E09",
+      "qid": "Q12",
+      "dimension": "Application Security",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q12-E10": {
+      "element_id": "Q12-E10",
+      "qid": "Q12",
+      "dimension": "Application Security",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q12-E11": {
+      "element_id": "Q12-E11",
+      "qid": "Q12",
+      "dimension": "Application Security",
+      "level": "L4",
+      "primary_sources": [
+        "confluence",
+        "github"
+      ]
+    },
+    "Q12-E12": {
+      "element_id": "Q12-E12",
+      "qid": "Q12",
+      "dimension": "Application Security",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q13-E01": {
+      "element_id": "Q13-E01",
+      "qid": "Q13",
+      "dimension": "Application Security",
+      "level": "L1",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q13-E02": {
+      "element_id": "Q13-E02",
+      "qid": "Q13",
+      "dimension": "Application Security",
+      "level": "L1",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q13-E03": {
+      "element_id": "Q13-E03",
+      "qid": "Q13",
+      "dimension": "Application Security",
+      "level": "L1",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q13-E04": {
+      "element_id": "Q13-E04",
+      "qid": "Q13",
+      "dimension": "Application Security",
+      "level": "L2",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q13-E05": {
+      "element_id": "Q13-E05",
+      "qid": "Q13",
+      "dimension": "Application Security",
+      "level": "L2",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q13-E06": {
+      "element_id": "Q13-E06",
+      "qid": "Q13",
+      "dimension": "Application Security",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q13-E07": {
+      "element_id": "Q13-E07",
+      "qid": "Q13",
+      "dimension": "Application Security",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q13-E08": {
+      "element_id": "Q13-E08",
+      "qid": "Q13",
+      "dimension": "Application Security",
+      "level": "L3",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q13-E09": {
+      "element_id": "Q13-E09",
+      "qid": "Q13",
+      "dimension": "Application Security",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q13-E10": {
+      "element_id": "Q13-E10",
+      "qid": "Q13",
+      "dimension": "Application Security",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q13-E11": {
+      "element_id": "Q13-E11",
+      "qid": "Q13",
+      "dimension": "Application Security",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q14-E01": {
+      "element_id": "Q14-E01",
+      "qid": "Q14",
+      "dimension": "Secure SDLC & Release",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q14-E02": {
+      "element_id": "Q14-E02",
+      "qid": "Q14",
+      "dimension": "Secure SDLC & Release",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q14-E03": {
+      "element_id": "Q14-E03",
+      "qid": "Q14",
+      "dimension": "Secure SDLC & Release",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q14-E04": {
+      "element_id": "Q14-E04",
+      "qid": "Q14",
+      "dimension": "Secure SDLC & Release",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q14-E05": {
+      "element_id": "Q14-E05",
+      "qid": "Q14",
+      "dimension": "Secure SDLC & Release",
+      "level": "L2",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q14-E06": {
+      "element_id": "Q14-E06",
+      "qid": "Q14",
+      "dimension": "Secure SDLC & Release",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q14-E07": {
+      "element_id": "Q14-E07",
+      "qid": "Q14",
+      "dimension": "Secure SDLC & Release",
+      "level": "L3",
+      "primary_sources": [
+        "risk_assessment",
+        "confluence"
+      ]
+    },
+    "Q14-E08": {
+      "element_id": "Q14-E08",
+      "qid": "Q14",
+      "dimension": "Secure SDLC & Release",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q14-E09": {
+      "element_id": "Q14-E09",
+      "qid": "Q14",
+      "dimension": "Secure SDLC & Release",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q14-E10": {
+      "element_id": "Q14-E10",
+      "qid": "Q14",
+      "dimension": "Secure SDLC & Release",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q14-E11": {
+      "element_id": "Q14-E11",
+      "qid": "Q14",
+      "dimension": "Secure SDLC & Release",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q14-E12": {
+      "element_id": "Q14-E12",
+      "qid": "Q14",
+      "dimension": "Secure SDLC & Release",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q15-E01": {
+      "element_id": "Q15-E01",
+      "qid": "Q15",
+      "dimension": "Secure SDLC & Release",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q15-E02": {
+      "element_id": "Q15-E02",
+      "qid": "Q15",
+      "dimension": "Secure SDLC & Release",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q15-E03": {
+      "element_id": "Q15-E03",
+      "qid": "Q15",
+      "dimension": "Secure SDLC & Release",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q15-E04": {
+      "element_id": "Q15-E04",
+      "qid": "Q15",
+      "dimension": "Secure SDLC & Release",
+      "level": "L2",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q15-E05": {
+      "element_id": "Q15-E05",
+      "qid": "Q15",
+      "dimension": "Secure SDLC & Release",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q15-E06": {
+      "element_id": "Q15-E06",
+      "qid": "Q15",
+      "dimension": "Secure SDLC & Release",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q15-E07": {
+      "element_id": "Q15-E07",
+      "qid": "Q15",
+      "dimension": "Secure SDLC & Release",
+      "level": "L3",
+      "primary_sources": [
+        "github",
+        "confluence"
+      ]
+    },
+    "Q15-E08": {
+      "element_id": "Q15-E08",
+      "qid": "Q15",
+      "dimension": "Secure SDLC & Release",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q15-E09": {
+      "element_id": "Q15-E09",
+      "qid": "Q15",
+      "dimension": "Secure SDLC & Release",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q15-E10": {
+      "element_id": "Q15-E10",
+      "qid": "Q15",
+      "dimension": "Secure SDLC & Release",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q15-E11": {
+      "element_id": "Q15-E11",
+      "qid": "Q15",
+      "dimension": "Secure SDLC & Release",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q15-E12": {
+      "element_id": "Q15-E12",
+      "qid": "Q15",
+      "dimension": "Secure SDLC & Release",
+      "level": "L4",
+      "primary_sources": [
+        "arb",
+        "risk_assessment"
+      ]
+    },
+    "Q15-E13": {
+      "element_id": "Q15-E13",
+      "qid": "Q15",
+      "dimension": "Secure SDLC & Release",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q16-E01": {
+      "element_id": "Q16-E01",
+      "qid": "Q16",
+      "dimension": "Secure SDLC & Release",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q16-E02": {
+      "element_id": "Q16-E02",
+      "qid": "Q16",
+      "dimension": "Secure SDLC & Release",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q16-E03": {
+      "element_id": "Q16-E03",
+      "qid": "Q16",
+      "dimension": "Secure SDLC & Release",
+      "level": "L2",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q16-E04": {
+      "element_id": "Q16-E04",
+      "qid": "Q16",
+      "dimension": "Secure SDLC & Release",
+      "level": "L2",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q16-E05": {
+      "element_id": "Q16-E05",
+      "qid": "Q16",
+      "dimension": "Secure SDLC & Release",
+      "level": "L2",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q16-E06": {
+      "element_id": "Q16-E06",
+      "qid": "Q16",
+      "dimension": "Secure SDLC & Release",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q16-E07": {
+      "element_id": "Q16-E07",
+      "qid": "Q16",
+      "dimension": "Secure SDLC & Release",
+      "level": "L3",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q16-E08": {
+      "element_id": "Q16-E08",
+      "qid": "Q16",
+      "dimension": "Secure SDLC & Release",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q16-E09": {
+      "element_id": "Q16-E09",
+      "qid": "Q16",
+      "dimension": "Secure SDLC & Release",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q17-E01": {
+      "element_id": "Q17-E01",
+      "qid": "Q17",
+      "dimension": "Resilience & Recovery",
+      "level": "L1",
+      "primary_sources": [
+        "arb"
+      ]
+    },
+    "Q17-E02": {
+      "element_id": "Q17-E02",
+      "qid": "Q17",
+      "dimension": "Resilience & Recovery",
+      "level": "L1",
+      "primary_sources": [
+        "arb"
+      ]
+    },
+    "Q17-E03": {
+      "element_id": "Q17-E03",
+      "qid": "Q17",
+      "dimension": "Resilience & Recovery",
+      "level": "L2",
+      "primary_sources": [
+        "arb"
+      ]
+    },
+    "Q17-E04": {
+      "element_id": "Q17-E04",
+      "qid": "Q17",
+      "dimension": "Resilience & Recovery",
+      "level": "L2",
+      "primary_sources": [
+        "arb"
+      ]
+    },
+    "Q17-E05": {
+      "element_id": "Q17-E05",
+      "qid": "Q17",
+      "dimension": "Resilience & Recovery",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "arb"
+      ]
+    },
+    "Q17-E06": {
+      "element_id": "Q17-E06",
+      "qid": "Q17",
+      "dimension": "Resilience & Recovery",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "github"
+      ]
+    },
+    "Q17-E07": {
+      "element_id": "Q17-E07",
+      "qid": "Q17",
+      "dimension": "Resilience & Recovery",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q17-E08": {
+      "element_id": "Q17-E08",
+      "qid": "Q17",
+      "dimension": "Resilience & Recovery",
+      "level": "L4",
+      "primary_sources": [
+        "confluence",
+        "github"
+      ]
+    },
+    "Q17-E09": {
+      "element_id": "Q17-E09",
+      "qid": "Q17",
+      "dimension": "Resilience & Recovery",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q17-E10": {
+      "element_id": "Q17-E10",
+      "qid": "Q17",
+      "dimension": "Resilience & Recovery",
+      "level": "L4",
+      "primary_sources": [
+        "arb"
+      ]
+    },
+    "Q18-E01": {
+      "element_id": "Q18-E01",
+      "qid": "Q18",
+      "dimension": "Resilience & Recovery",
+      "level": "L1",
+      "primary_sources": [
+        "confluence",
+        "arb"
+      ]
+    },
+    "Q18-E02": {
+      "element_id": "Q18-E02",
+      "qid": "Q18",
+      "dimension": "Resilience & Recovery",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "arb"
+      ]
+    },
+    "Q18-E03": {
+      "element_id": "Q18-E03",
+      "qid": "Q18",
+      "dimension": "Resilience & Recovery",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "arb"
+      ]
+    },
+    "Q18-E04": {
+      "element_id": "Q18-E04",
+      "qid": "Q18",
+      "dimension": "Resilience & Recovery",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q18-E05": {
+      "element_id": "Q18-E05",
+      "qid": "Q18",
+      "dimension": "Resilience & Recovery",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "arb"
+      ]
+    },
+    "Q18-E06": {
+      "element_id": "Q18-E06",
+      "qid": "Q18",
+      "dimension": "Resilience & Recovery",
+      "level": "L4",
+      "primary_sources": [
+        "confluence",
+        "arb"
+      ]
+    },
+    "Q18-E07": {
+      "element_id": "Q18-E07",
+      "qid": "Q18",
+      "dimension": "Resilience & Recovery",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q18-E08": {
+      "element_id": "Q18-E08",
+      "qid": "Q18",
+      "dimension": "Resilience & Recovery",
+      "level": "L4",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q19-E01": {
+      "element_id": "Q19-E01",
+      "qid": "Q19",
+      "dimension": "Resilience & Recovery",
+      "level": "L1",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q19-E02": {
+      "element_id": "Q19-E02",
+      "qid": "Q19",
+      "dimension": "Resilience & Recovery",
+      "level": "L1",
+      "primary_sources": [
+        "confluence",
+        "github"
+      ]
+    },
+    "Q19-E03": {
+      "element_id": "Q19-E03",
+      "qid": "Q19",
+      "dimension": "Resilience & Recovery",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "github"
+      ]
+    },
+    "Q19-E04": {
+      "element_id": "Q19-E04",
+      "qid": "Q19",
+      "dimension": "Resilience & Recovery",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q19-E05": {
+      "element_id": "Q19-E05",
+      "qid": "Q19",
+      "dimension": "Resilience & Recovery",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "github"
+      ]
+    },
+    "Q19-E06": {
+      "element_id": "Q19-E06",
+      "qid": "Q19",
+      "dimension": "Resilience & Recovery",
+      "level": "L4",
+      "primary_sources": [
+        "confluence",
+        "github"
+      ]
+    },
+    "Q19-E07": {
+      "element_id": "Q19-E07",
+      "qid": "Q19",
+      "dimension": "Resilience & Recovery",
+      "level": "L4",
+      "primary_sources": [
+        "confluence",
+        "github"
+      ]
+    },
+    "Q20-E01": {
+      "element_id": "Q20-E01",
+      "qid": "Q20",
+      "dimension": "Resilience & Recovery",
+      "level": "L1",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q20-E02": {
+      "element_id": "Q20-E02",
+      "qid": "Q20",
+      "dimension": "Resilience & Recovery",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q20-E03": {
+      "element_id": "Q20-E03",
+      "qid": "Q20",
+      "dimension": "Resilience & Recovery",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q20-E04": {
+      "element_id": "Q20-E04",
+      "qid": "Q20",
+      "dimension": "Resilience & Recovery",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q20-E05": {
+      "element_id": "Q20-E05",
+      "qid": "Q20",
+      "dimension": "Resilience & Recovery",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q20-E06": {
+      "element_id": "Q20-E06",
+      "qid": "Q20",
+      "dimension": "Resilience & Recovery",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q20-E07": {
+      "element_id": "Q20-E07",
+      "qid": "Q20",
+      "dimension": "Resilience & Recovery",
+      "level": "L4",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q20-E08": {
+      "element_id": "Q20-E08",
+      "qid": "Q20",
+      "dimension": "Resilience & Recovery",
+      "level": "L4",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q21-E01": {
+      "element_id": "Q21-E01",
+      "qid": "Q21",
+      "dimension": "Resilience & Recovery",
+      "level": "L1",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q21-E02": {
+      "element_id": "Q21-E02",
+      "qid": "Q21",
+      "dimension": "Resilience & Recovery",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q21-E03": {
+      "element_id": "Q21-E03",
+      "qid": "Q21",
+      "dimension": "Resilience & Recovery",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q21-E04": {
+      "element_id": "Q21-E04",
+      "qid": "Q21",
+      "dimension": "Resilience & Recovery",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q21-E05": {
+      "element_id": "Q21-E05",
+      "qid": "Q21",
+      "dimension": "Resilience & Recovery",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q21-E06": {
+      "element_id": "Q21-E06",
+      "qid": "Q21",
+      "dimension": "Resilience & Recovery",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q21-E07": {
+      "element_id": "Q21-E07",
+      "qid": "Q21",
+      "dimension": "Resilience & Recovery",
+      "level": "L4",
+      "primary_sources": [
+        "confluence",
+        "github"
+      ]
+    },
+    "Q21-E08": {
+      "element_id": "Q21-E08",
+      "qid": "Q21",
+      "dimension": "Resilience & Recovery",
+      "level": "L4",
+      "primary_sources": [
+        "arb"
+      ]
+    },
+    "Q22-E01": {
+      "element_id": "Q22-E01",
+      "qid": "Q22",
+      "dimension": "Observability & Monitoring",
+      "level": "L1",
+      "primary_sources": [
+        "risk_assessment",
+        "confluence"
+      ]
+    },
+    "Q22-E02": {
+      "element_id": "Q22-E02",
+      "qid": "Q22",
+      "dimension": "Observability & Monitoring",
+      "level": "L1",
+      "primary_sources": [
+        "confluence",
+        "arb"
+      ]
+    },
+    "Q22-E03": {
+      "element_id": "Q22-E03",
+      "qid": "Q22",
+      "dimension": "Observability & Monitoring",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "arb"
+      ]
+    },
+    "Q22-E04": {
+      "element_id": "Q22-E04",
+      "qid": "Q22",
+      "dimension": "Observability & Monitoring",
+      "level": "L2",
+      "primary_sources": [
+        "risk_assessment",
+        "confluence"
+      ]
+    },
+    "Q22-E05": {
+      "element_id": "Q22-E05",
+      "qid": "Q22",
+      "dimension": "Observability & Monitoring",
+      "level": "L2",
+      "primary_sources": [
+        "arb",
+        "confluence"
+      ]
+    },
+    "Q22-E06": {
+      "element_id": "Q22-E06",
+      "qid": "Q22",
+      "dimension": "Observability & Monitoring",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q22-E07": {
+      "element_id": "Q22-E07",
+      "qid": "Q22",
+      "dimension": "Observability & Monitoring",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "arb"
+      ]
+    },
+    "Q22-E08": {
+      "element_id": "Q22-E08",
+      "qid": "Q22",
+      "dimension": "Observability & Monitoring",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q22-E09": {
+      "element_id": "Q22-E09",
+      "qid": "Q22",
+      "dimension": "Observability & Monitoring",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q22-E10": {
+      "element_id": "Q22-E10",
+      "qid": "Q22",
+      "dimension": "Observability & Monitoring",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "arb"
+      ]
+    },
+    "Q22-E11": {
+      "element_id": "Q22-E11",
+      "qid": "Q22",
+      "dimension": "Observability & Monitoring",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q22-E12": {
+      "element_id": "Q22-E12",
+      "qid": "Q22",
+      "dimension": "Observability & Monitoring",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q22-E13": {
+      "element_id": "Q22-E13",
+      "qid": "Q22",
+      "dimension": "Observability & Monitoring",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q23-E01": {
+      "element_id": "Q23-E01",
+      "qid": "Q23",
+      "dimension": "Observability & Monitoring",
+      "level": "L1",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q23-E02": {
+      "element_id": "Q23-E02",
+      "qid": "Q23",
+      "dimension": "Observability & Monitoring",
+      "level": "L1",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q23-E03": {
+      "element_id": "Q23-E03",
+      "qid": "Q23",
+      "dimension": "Observability & Monitoring",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q23-E04": {
+      "element_id": "Q23-E04",
+      "qid": "Q23",
+      "dimension": "Observability & Monitoring",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q23-E05": {
+      "element_id": "Q23-E05",
+      "qid": "Q23",
+      "dimension": "Observability & Monitoring",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q23-E06": {
+      "element_id": "Q23-E06",
+      "qid": "Q23",
+      "dimension": "Observability & Monitoring",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q23-E07": {
+      "element_id": "Q23-E07",
+      "qid": "Q23",
+      "dimension": "Observability & Monitoring",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q23-E08": {
+      "element_id": "Q23-E08",
+      "qid": "Q23",
+      "dimension": "Observability & Monitoring",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q23-E09": {
+      "element_id": "Q23-E09",
+      "qid": "Q23",
+      "dimension": "Observability & Monitoring",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q24-E01": {
+      "element_id": "Q24-E01",
+      "qid": "Q24",
+      "dimension": "Observability & Monitoring",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q24-E02": {
+      "element_id": "Q24-E02",
+      "qid": "Q24",
+      "dimension": "Observability & Monitoring",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q24-E03": {
+      "element_id": "Q24-E03",
+      "qid": "Q24",
+      "dimension": "Observability & Monitoring",
+      "level": "L2",
+      "primary_sources": [
+        "github",
+        "confluence"
+      ]
+    },
+    "Q24-E04": {
+      "element_id": "Q24-E04",
+      "qid": "Q24",
+      "dimension": "Observability & Monitoring",
+      "level": "L2",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q24-E05": {
+      "element_id": "Q24-E05",
+      "qid": "Q24",
+      "dimension": "Observability & Monitoring",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q24-E06": {
+      "element_id": "Q24-E06",
+      "qid": "Q24",
+      "dimension": "Observability & Monitoring",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q24-E07": {
+      "element_id": "Q24-E07",
+      "qid": "Q24",
+      "dimension": "Observability & Monitoring",
+      "level": "L4",
+      "primary_sources": [
+        "github",
+        "confluence"
+      ]
+    },
+    "Q24-E08": {
+      "element_id": "Q24-E08",
+      "qid": "Q24",
+      "dimension": "Observability & Monitoring",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q25-E01": {
+      "element_id": "Q25-E01",
+      "qid": "Q25",
+      "dimension": "Operations & Documentation",
+      "level": "L1",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q25-E02": {
+      "element_id": "Q25-E02",
+      "qid": "Q25",
+      "dimension": "Operations & Documentation",
+      "level": "L1",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q25-E03": {
+      "element_id": "Q25-E03",
+      "qid": "Q25",
+      "dimension": "Operations & Documentation",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q25-E04": {
+      "element_id": "Q25-E04",
+      "qid": "Q25",
+      "dimension": "Operations & Documentation",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q25-E05": {
+      "element_id": "Q25-E05",
+      "qid": "Q25",
+      "dimension": "Operations & Documentation",
+      "level": "L3",
+      "primary_sources": [
+        "arb",
+        "confluence"
+      ]
+    },
+    "Q25-E06": {
+      "element_id": "Q25-E06",
+      "qid": "Q25",
+      "dimension": "Operations & Documentation",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q25-E07": {
+      "element_id": "Q25-E07",
+      "qid": "Q25",
+      "dimension": "Operations & Documentation",
+      "level": "L4",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q25-E08": {
+      "element_id": "Q25-E08",
+      "qid": "Q25",
+      "dimension": "Operations & Documentation",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q26-E01": {
+      "element_id": "Q26-E01",
+      "qid": "Q26",
+      "dimension": "Operations & Documentation",
+      "level": "L1",
+      "primary_sources": [
+        "arb",
+        "sharepoint"
+      ]
+    },
+    "Q26-E02": {
+      "element_id": "Q26-E02",
+      "qid": "Q26",
+      "dimension": "Operations & Documentation",
+      "level": "L2",
+      "primary_sources": [
+        "arb",
+        "sharepoint"
+      ]
+    },
+    "Q26-E03": {
+      "element_id": "Q26-E03",
+      "qid": "Q26",
+      "dimension": "Operations & Documentation",
+      "level": "L2",
+      "primary_sources": [
+        "arb",
+        "sharepoint"
+      ]
+    },
+    "Q26-E04": {
+      "element_id": "Q26-E04",
+      "qid": "Q26",
+      "dimension": "Operations & Documentation",
+      "level": "L3",
+      "primary_sources": [
+        "arb",
+        "sharepoint"
+      ]
+    },
+    "Q26-E05": {
+      "element_id": "Q26-E05",
+      "qid": "Q26",
+      "dimension": "Operations & Documentation",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q26-E06": {
+      "element_id": "Q26-E06",
+      "qid": "Q26",
+      "dimension": "Operations & Documentation",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q26-E07": {
+      "element_id": "Q26-E07",
+      "qid": "Q26",
+      "dimension": "Operations & Documentation",
+      "level": "L4",
+      "primary_sources": [
+        "arb",
+        "github"
+      ]
+    },
+    "Q27-E01": {
+      "element_id": "Q27-E01",
+      "qid": "Q27",
+      "dimension": "Operations & Documentation",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q27-E02": {
+      "element_id": "Q27-E02",
+      "qid": "Q27",
+      "dimension": "Operations & Documentation",
+      "level": "L1",
+      "primary_sources": [
+        "risk_assessment"
+      ]
+    },
+    "Q27-E03": {
+      "element_id": "Q27-E03",
+      "qid": "Q27",
+      "dimension": "Operations & Documentation",
+      "level": "L1",
+      "primary_sources": [
+        "risk_assessment",
+        "confluence"
+      ]
+    },
+    "Q27-E04": {
+      "element_id": "Q27-E04",
+      "qid": "Q27",
+      "dimension": "Operations & Documentation",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q27-E05": {
+      "element_id": "Q27-E05",
+      "qid": "Q27",
+      "dimension": "Operations & Documentation",
+      "level": "L2",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q27-E06": {
+      "element_id": "Q27-E06",
+      "qid": "Q27",
+      "dimension": "Operations & Documentation",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "arb"
+      ]
+    },
+    "Q27-E07": {
+      "element_id": "Q27-E07",
+      "qid": "Q27",
+      "dimension": "Operations & Documentation",
+      "level": "L2",
+      "primary_sources": [
+        "risk_assessment",
+        "confluence"
+      ]
+    },
+    "Q27-E08": {
+      "element_id": "Q27-E08",
+      "qid": "Q27",
+      "dimension": "Operations & Documentation",
+      "level": "L3",
+      "primary_sources": [
+        "github",
+        "confluence"
+      ]
+    },
+    "Q27-E09": {
+      "element_id": "Q27-E09",
+      "qid": "Q27",
+      "dimension": "Operations & Documentation",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q27-E10": {
+      "element_id": "Q27-E10",
+      "qid": "Q27",
+      "dimension": "Operations & Documentation",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q27-E11": {
+      "element_id": "Q27-E11",
+      "qid": "Q27",
+      "dimension": "Operations & Documentation",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q27-E12": {
+      "element_id": "Q27-E12",
+      "qid": "Q27",
+      "dimension": "Operations & Documentation",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q27-E13": {
+      "element_id": "Q27-E13",
+      "qid": "Q27",
+      "dimension": "Operations & Documentation",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q28-E01": {
+      "element_id": "Q28-E01",
+      "qid": "Q28",
+      "dimension": "Performance & Scalability",
+      "level": "L1",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q28-E02": {
+      "element_id": "Q28-E02",
+      "qid": "Q28",
+      "dimension": "Performance & Scalability",
+      "level": "L2",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q28-E03": {
+      "element_id": "Q28-E03",
+      "qid": "Q28",
+      "dimension": "Performance & Scalability",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "arb"
+      ]
+    },
+    "Q28-E04": {
+      "element_id": "Q28-E04",
+      "qid": "Q28",
+      "dimension": "Performance & Scalability",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "arb"
+      ]
+    },
+    "Q28-E05": {
+      "element_id": "Q28-E05",
+      "qid": "Q28",
+      "dimension": "Performance & Scalability",
+      "level": "L3",
+      "primary_sources": [
+        "arb",
+        "confluence"
+      ]
+    },
+    "Q28-E06": {
+      "element_id": "Q28-E06",
+      "qid": "Q28",
+      "dimension": "Performance & Scalability",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q28-E07": {
+      "element_id": "Q28-E07",
+      "qid": "Q28",
+      "dimension": "Performance & Scalability",
+      "level": "L4",
+      "primary_sources": [
+        "github"
+      ]
+    },
+    "Q28-E08": {
+      "element_id": "Q28-E08",
+      "qid": "Q28",
+      "dimension": "Performance & Scalability",
+      "level": "L4",
+      "primary_sources": [
+        "arb",
+        "confluence"
+      ]
+    },
+    "Q28-E09": {
+      "element_id": "Q28-E09",
+      "qid": "Q28",
+      "dimension": "Performance & Scalability",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q29-E01": {
+      "element_id": "Q29-E01",
+      "qid": "Q29",
+      "dimension": "Performance & Scalability",
+      "level": "L1",
+      "primary_sources": [
+        "confluence",
+        "arb"
+      ]
+    },
+    "Q29-E02": {
+      "element_id": "Q29-E02",
+      "qid": "Q29",
+      "dimension": "Performance & Scalability",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "arb"
+      ]
+    },
+    "Q29-E03": {
+      "element_id": "Q29-E03",
+      "qid": "Q29",
+      "dimension": "Performance & Scalability",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "arb"
+      ]
+    },
+    "Q29-E04": {
+      "element_id": "Q29-E04",
+      "qid": "Q29",
+      "dimension": "Performance & Scalability",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q29-E05": {
+      "element_id": "Q29-E05",
+      "qid": "Q29",
+      "dimension": "Performance & Scalability",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q29-E06": {
+      "element_id": "Q29-E06",
+      "qid": "Q29",
+      "dimension": "Performance & Scalability",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q29-E07": {
+      "element_id": "Q29-E07",
+      "qid": "Q29",
+      "dimension": "Performance & Scalability",
+      "level": "L4",
+      "primary_sources": [
+        "arb",
+        "confluence"
+      ]
+    },
+    "Q29-E08": {
+      "element_id": "Q29-E08",
+      "qid": "Q29",
+      "dimension": "Performance & Scalability",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q30-E01": {
+      "element_id": "Q30-E01",
+      "qid": "Q30",
+      "dimension": "Cost & Sustainability",
+      "level": "L1",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q30-E02": {
+      "element_id": "Q30-E02",
+      "qid": "Q30",
+      "dimension": "Cost & Sustainability",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q30-E03": {
+      "element_id": "Q30-E03",
+      "qid": "Q30",
+      "dimension": "Cost & Sustainability",
+      "level": "L2",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q30-E04": {
+      "element_id": "Q30-E04",
+      "qid": "Q30",
+      "dimension": "Cost & Sustainability",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q30-E05": {
+      "element_id": "Q30-E05",
+      "qid": "Q30",
+      "dimension": "Cost & Sustainability",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q30-E06": {
+      "element_id": "Q30-E06",
+      "qid": "Q30",
+      "dimension": "Cost & Sustainability",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q30-E07": {
+      "element_id": "Q30-E07",
+      "qid": "Q30",
+      "dimension": "Cost & Sustainability",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q30-E08": {
+      "element_id": "Q30-E08",
+      "qid": "Q30",
+      "dimension": "Cost & Sustainability",
+      "level": "L4",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q30-E09": {
+      "element_id": "Q30-E09",
+      "qid": "Q30",
+      "dimension": "Cost & Sustainability",
+      "level": "L4",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q30-E10": {
+      "element_id": "Q30-E10",
+      "qid": "Q30",
+      "dimension": "Cost & Sustainability",
+      "level": "L4",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q31-E01": {
+      "element_id": "Q31-E01",
+      "qid": "Q31",
+      "dimension": "Governance & Architecture",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q31-E02": {
+      "element_id": "Q31-E02",
+      "qid": "Q31",
+      "dimension": "Governance & Architecture",
+      "level": "L1",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q31-E03": {
+      "element_id": "Q31-E03",
+      "qid": "Q31",
+      "dimension": "Governance & Architecture",
+      "level": "L2",
+      "primary_sources": [
+        "arb",
+        "github"
+      ]
+    },
+    "Q31-E04": {
+      "element_id": "Q31-E04",
+      "qid": "Q31",
+      "dimension": "Governance & Architecture",
+      "level": "L2",
+      "primary_sources": [
+        "arb",
+        "github"
+      ]
+    },
+    "Q31-E05": {
+      "element_id": "Q31-E05",
+      "qid": "Q31",
+      "dimension": "Governance & Architecture",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q31-E06": {
+      "element_id": "Q31-E06",
+      "qid": "Q31",
+      "dimension": "Governance & Architecture",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q31-E07": {
+      "element_id": "Q31-E07",
+      "qid": "Q31",
+      "dimension": "Governance & Architecture",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q31-E08": {
+      "element_id": "Q31-E08",
+      "qid": "Q31",
+      "dimension": "Governance & Architecture",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q31-E09": {
+      "element_id": "Q31-E09",
+      "qid": "Q31",
+      "dimension": "Governance & Architecture",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q31-E10": {
+      "element_id": "Q31-E10",
+      "qid": "Q31",
+      "dimension": "Governance & Architecture",
+      "level": "L4",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q31-E11": {
+      "element_id": "Q31-E11",
+      "qid": "Q31",
+      "dimension": "Governance & Architecture",
+      "level": "L4",
+      "primary_sources": [
+        "arb",
+        "github"
+      ]
+    },
+    "Q32-E01": {
+      "element_id": "Q32-E01",
+      "qid": "Q32",
+      "dimension": "Governance & Architecture",
+      "level": "L1",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q32-E02": {
+      "element_id": "Q32-E02",
+      "qid": "Q32",
+      "dimension": "Governance & Architecture",
+      "level": "L2",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q32-E03": {
+      "element_id": "Q32-E03",
+      "qid": "Q32",
+      "dimension": "Governance & Architecture",
+      "level": "L2",
+      "primary_sources": [
+        "risk_assessment"
+      ]
+    },
+    "Q32-E04": {
+      "element_id": "Q32-E04",
+      "qid": "Q32",
+      "dimension": "Governance & Architecture",
+      "level": "L3",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q32-E05": {
+      "element_id": "Q32-E05",
+      "qid": "Q32",
+      "dimension": "Governance & Architecture",
+      "level": "L3",
+      "primary_sources": [
+        "confluence"
+      ]
+    },
+    "Q32-E06": {
+      "element_id": "Q32-E06",
+      "qid": "Q32",
+      "dimension": "Governance & Architecture",
+      "level": "L4",
+      "primary_sources": [
+        "confluence",
+        "risk_assessment"
+      ]
+    },
+    "Q32-E07": {
+      "element_id": "Q32-E07",
+      "qid": "Q32",
+      "dimension": "Governance & Architecture",
+      "level": "L4",
+      "primary_sources": [
+        "confluence",
+        "arb"
+      ]
+    }
+  }
+}
